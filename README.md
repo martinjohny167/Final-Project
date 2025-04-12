@@ -5,7 +5,7 @@
 This project implements a scalable AWS infrastructure using Terraform with a focus on Infrastructure as Code (IaC) best practices. The implementation includes:
 
 1. **S3 Bucket for State Storage**
-   - Created with versioning enabled
+   - Created with versioning enabled 
    - Used as a backend for Terraform state files
 
 2. **DynamoDB Table for State Locking**
