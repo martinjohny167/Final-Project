@@ -1,0 +1,10 @@
+aws_region         = "us-east-1"
+state_bucket_name  = "mjbucket-8945124"
+dynamodb_table_name = "terraform-locks"
+vpc_cidr_block     = "10.0.0.0/16"
+subnet_cidr_block  = "10.0.1.0/24"
+availability_zone  = "us-east-1a"
+ami_id             = "ami-0a38b8c18f189761a" # Updated with valid Amazon Linux 2 AMI
+instance_type      = "t2.micro"
+environment        = "dev"
+key_name           = "" # Add your key pair name if you have one 
